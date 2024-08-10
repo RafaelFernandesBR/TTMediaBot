@@ -139,3 +139,4 @@ config.json
 .*env/
 TTSDK_license.txt
 event_handlers.py
+data
