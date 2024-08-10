@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  ttmb:
+    image: ttmediabot
+    container_name: ttmb_1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/home/ttbot/data
+    networks:
+      - ttmb_network
+    restart: always
+
+networks:
+  ttmb_network:
+    driver: bridge

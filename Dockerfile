@@ -16,4 +16,4 @@ COPY --chown=ttbot requirements.txt .
 RUN pip install -r requirements.txt
 COPY --chown=ttbot . .
 RUN python tools/ttsdk_downloader.py && python tools/compile_locales.py
-CMD pulseaudio --start && ./TTMediaBot.sh -c data/config.json --cache data/TTMediaBotCache.dat --log data/TTMediaBot.log
+CMD pulseaudio --start && /bin/bash ./TTMediaBot.sh -c data/config.json --cache data/TTMediaBotCache.dat --log data/TTMediaBot.log
