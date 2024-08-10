@@ -473,11 +473,11 @@ msgstr "Transmissão de áudio desativada"
 
 #: Z:/development/python/TTMediaBot/bot/commands/user_commands.py:297
 msgid "This service has no additional help"
-msgstr ""
+msgstr "Este serviço não tem ajuda adicional"
 
 #: Z:/development/python/TTMediaBot/bot/commands/user_commands.py:317
 msgid "{} (Warning: {})"
-msgstr ""
+msgstr "{} (Aviso: {})"
 
 #: Z:/development/python/TTMediaBot/bot/commands/user_commands.py:323
 #, fuzzy, python-brace-format
@@ -602,11 +602,11 @@ msgstr "{stream_url} Pausado"
 
 #: Z:/development/python/TTMediaBot/bot/services/yam.py:39
 msgid "Token is not provided"
-msgstr ""
+msgstr "O token não é fornecido"
 
 #: Z:/development/python/TTMediaBot/bot/services/yam.py:43
 msgid "You don't have Yandex Plus"
-msgstr ""
+msgstr "Você não tem Yandex Plus"
 
 #~ msgid "The cache file is already used by another instance of the bot."
 #~ msgstr "O arquivo de cache já é usado por outra instância do bot."
@@ -725,5 +725,5 @@ msgstr ""
 #~ msgstr "A lista está vazia"
 
 #~ msgid "You don't have Yandex Plus"
-#~ msgstr ""
+#~ msgstr "Você não tem Yandex Plus"
 
